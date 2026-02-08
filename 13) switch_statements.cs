@@ -1,3 +1,4 @@
+// ========== TOPIC 13: SWITCH — Refresh: switch(expr) { case x: ... break; default: ... break; } ==========
 // C# Switch Statements
 // Use the switch statement to select one of many code blocks to be executed.
 
@@ -77,3 +78,9 @@ switch (day)
     break;
 }
 // Outputs "Looking forward to the Weekend."
+
+/*
+=== TOPIC 13 SUMMARY: SWITCH ===
+- Use when one value, many possible outcomes. switch (expression) { case value1: ... break; case value2: ... break; default: ... break; }. break exits the switch; default runs when no case matches (optional).
+- Remember: Expression is evaluated once. break is required in C# (no fall-through). default is optional but good practice.
+*/

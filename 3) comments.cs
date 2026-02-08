@@ -1,3 +1,4 @@
+// ========== TOPIC 3: COMMENTS — Refresh: // single-line; /* */ multi-line; compiler ignores them ==========
 // C# Comments
 // Comments can be used to explain C# code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
 
@@ -31,3 +32,11 @@ Console.WriteLine("Hello World!");
 
 // Single or multi-line comments?
 // It is up to you which you want to use. Normally, we use // for short comments, and /* */ for longer.
+
+/*
+=== TOPIC 3 SUMMARY: COMMENTS ===
+- Comments are for humans; the compiler ignores them.
+- Single-line: // comment. Multi-line: /* comment ... */
+- Use them to explain code or temporarily disable code. Use // for short notes and /* */ for longer blocks.
+- Remember: Good comments make code easier to understand when you come back to it later.
+*/

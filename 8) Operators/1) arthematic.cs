@@ -1,3 +1,4 @@
+// ========== TOPIC 8: ARITHMETIC OPERATORS — Refresh: + - * / % ++ -- ==========
 // Operators
 // Operators are used to perform operations on variables and values.
 
@@ -24,3 +25,9 @@ int sum3 = sum2 + sum2;     // 800 (400 + 400)
 // %	Modulus	Returns the division remainder	x % y	
 // ++	Increment	Increases the value of a variable by 1	x++	
 // --	Decrement	Decreases the value of a variable by 1	x--	
+
+/*
+=== TOPIC 8 SUMMARY (OPERATORS): ARITHMETIC ===
+- + add, - subtract, * multiply, / divide, % remainder, ++ increment by 1, -- decrement by 1.
+- Remember: int / int = int (e.g. 7/2 = 3). % gives remainder (e.g. 7%2 = 1). x++ is same as x = x + 1.
+*/

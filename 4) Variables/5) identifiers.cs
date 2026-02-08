@@ -1,3 +1,4 @@
+// ========== TOPIC 4: IDENTIFIERS — Refresh: names = letters/digits/_; start with letter or _; case-sensitive ==========
 // C# Identifiers
 // All C# variables must be identified with unique names.
 
@@ -21,3 +22,9 @@ int m = 60;
 // Names should start with a lowercase letter, and cannot contain whitespace
 // Names are case-sensitive ("myVar" and "myvar" are different variables)
 // Reserved words (like C# keywords, such as int or double) cannot be used as name
+
+/*
+=== TOPIC 4 SUMMARY (VARIABLES): IDENTIFIERS ===
+- Variable names can use letters, digits, underscore; must start with letter or _; case-sensitive; avoid C# keywords; prefer descriptive names (e.g. minutesPerHour).
+- Remember: myVar and myvar are different. No spaces in names. Use camelCase for variables.
+*/

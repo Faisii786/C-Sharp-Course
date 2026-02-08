@@ -1,3 +1,4 @@
+// ========== TOPIC 5: DATA TYPES — Refresh: int, long, float, double, bool, char, string; sizes and suffixes (L, F, D) ==========
 // C# Data Types
 // As explained in the variables chapter, a variable in C# must be a specified data type:
 
@@ -95,3 +96,8 @@ Console.WriteLine(myGrade);
 string greeting = "Hello World";
 Console.WriteLine(greeting);
 
+/*
+=== TOPIC 5 SUMMARY: DATA TYPES ===
+- Every variable has a type (size and kind of value). Common: int (4 bytes), long (8 bytes, suffix L), float (suffix F), double (suffix D). Use int for whole numbers and double for decimals in most cases. Scientific: 35e3F, 12E4D. bool: only true or false. char: one character in single quotes. string: text in double quotes.
+- Remember: float has ~6–7 decimal digits; double has ~15. Prefer double for precision.
+*/

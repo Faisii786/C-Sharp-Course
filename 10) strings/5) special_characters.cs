@@ -1,3 +1,4 @@
+// ========== TOPIC 10: SPECIAL CHARACTERS — Refresh: \\ \" \' \n \t ==========
 // Strings - Special Characters
 // Because strings must be written within quotes, C# will misunderstand this string, and generate an error:
 
@@ -34,3 +35,9 @@ string txt = "The character \\ is called backslash.";
 // \n	New Line	
 // \t	Tab	
 // \b	Backspace
+
+/*
+=== TOPIC 10 SUMMARY (STRINGS): SPECIAL CHARACTERS ===
+- \" quote, \' single quote, \\ backslash, \n new line, \t tab.
+- Remember: Backslash \ escapes the next character so it's treated as part of the string.
+*/

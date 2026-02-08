@@ -1,3 +1,4 @@
+// ========== TOPIC 16: SORT & LINQ — Refresh: Array.Sort(arr); Linq: Max(), Min(), Sum() ==========
 // Sort an Array
 // There are many array methods available, for example Sort(), which sorts an array alphabetically or in an ascending order:
 
@@ -45,3 +46,9 @@ namespace MyApplication
 
 // You will learn more about other namespaces in a later chapter.
 
+/*
+=== TOPIC 16 SUMMARY (ARRAYS): SORT & LINQ ===
+- Sort: Array.Sort(arr) — sorts alphabetically (strings) or ascending (numbers).
+- System.Linq: using System.Linq; then arr.Max(), arr.Min(), arr.Sum() for largest, smallest, and sum of elements.
+- Remember: Sort modifies the array in place. Min/Max/Sum need using System.Linq; and work on int[], etc.
+*/

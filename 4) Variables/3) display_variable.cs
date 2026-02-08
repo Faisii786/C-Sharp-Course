@@ -1,3 +1,4 @@
+// ========== TOPIC 4: DISPLAY VARIABLES — Refresh: "text " + variable in WriteLine; + adds numbers ==========
 // Display Variables
 // The WriteLine() method is often used to display variable values to the console window.
 
@@ -27,3 +28,9 @@ Console.WriteLine(x + y); // Print the value of x + y
 // x stores the value 5
 // y stores the value 6
 // Then we use the WriteLine() method to display the value of x + y, which is 11
+
+/*
+=== TOPIC 4 SUMMARY (VARIABLES): DISPLAY ===
+- Use + to combine text and variables in WriteLine (e.g. "Hello " + name). For numbers, + adds.
+- Remember: "x + y" with ints prints the sum; "x" + "y" with strings concatenates.
+*/

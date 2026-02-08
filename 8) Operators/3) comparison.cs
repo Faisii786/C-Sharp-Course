@@ -1,3 +1,4 @@
+// ========== TOPIC 8: COMPARISON OPERATORS — Refresh: == != > < >= <= (return true/false) ==========
 // Comparison Operators
 // Comparison operators are used to compare two values (or variables). This is important in programming, because it helps us to find answers and make decisions.
 
@@ -19,3 +20,9 @@ Console.WriteLine(x > y); // returns True because 5 is greater than 3
 // <	Less than	x < y	
 // >=	Greater than or equal to	x >= y	
 // <=	Less than or equal to	x <= y	
+
+/*
+=== TOPIC 8 SUMMARY (OPERATORS): COMPARISON ===
+- Result is true/false: == equal, != not equal, >, <, >=, <=.
+- Remember: == is "equal to" (two equals). = is assignment. Use these in if conditions and loops.
+*/

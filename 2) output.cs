@@ -1,3 +1,5 @@
+// ========== TOPIC 2: OUTPUT — Refresh: WriteLine = print + new line; Write = print, no new line ==========
+
 Console.WriteLine("Hello World!");
 
 // C# Output
@@ -28,3 +30,11 @@ Console.Write("Hello World! ");
 Console.Write("I will print on the same line.");
 
 // Note that we add an extra space when needed (after "Hello World!" in the example above), for better readability.
+
+/*
+=== TOPIC 2 SUMMARY: OUTPUT ===
+- Console.WriteLine(...) prints and adds a new line. You can call it many times; each call prints on a new line.
+- It can print text or numbers (e.g. Console.WriteLine(3 + 3);).
+- Console.Write(...) prints without a new line, so the next output continues on the same line.
+- Remember: Add a space in the string after Write() if you want a space before the next output.
+*/

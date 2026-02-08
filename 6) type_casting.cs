@@ -1,3 +1,4 @@
+// ========== TOPIC 6: TYPE CASTING — Refresh: implicit (small→big); explicit (big→small) with (type); Convert.ToXxx() ==========
 // C# Type Casting
 // Type casting is when you assign a value of one data type to another type.
 
@@ -43,3 +44,9 @@ Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
 
 // Why Conversion?
 // Many times, there's no need for type conversion. But sometimes you have to. Take a look at the next chapter, when working with user input, to see an example of this.
+
+/*
+=== TOPIC 6 SUMMARY: TYPE CASTING ===
+- Implicit: smaller to larger (e.g. int to double) happens automatically. Explicit: larger to smaller (e.g. double to int) — you write (int) myDouble; decimal part is dropped. Convert methods: Convert.ToString(), ToDouble(), ToInt32(), ToInt64(), ToBoolean() for explicit conversion (e.g. string from user to number).
+- Remember: ReadLine() returns string — use Convert.ToInt32(Console.ReadLine()) for integer input.
+*/

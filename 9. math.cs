@@ -1,3 +1,4 @@
+// ========== TOPIC 9: MATH — Refresh: Math.Max, Min, Sqrt, Abs, Round ==========
 // The C# Math class has many methods that allows you to perform mathematical tasks on numbers.
 
 // Math.Max(x,y)
@@ -30,3 +31,8 @@ Math.Abs(-4.7);
 // Example
 Math.Round(9.99);
 
+/*
+=== TOPIC 9 SUMMARY: MATH ===
+- Math.Max(x, y) and Math.Min(x, y); Math.Sqrt(x) square root; Math.Abs(x) absolute value; Math.Round(x) round to nearest whole number.
+- Remember: These are static methods — call as Math.MethodName(...), not on a variable.
+*/

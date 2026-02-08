@@ -1,3 +1,4 @@
+// ========== TOPIC 10: STRINGS — Refresh: double quotes; .Length; ToUpper(), ToLower() ==========
 // C# Strings
 // Strings are used for storing text.
 
@@ -28,3 +29,8 @@ string txt = "Hello World";
 Console.WriteLine(txt.ToUpper());   // Outputs "HELLO WORLD"
 Console.WriteLine(txt.ToLower());   // Outputs "hello world"
 
+/*
+=== TOPIC 10 SUMMARY (STRINGS): STRINGS ===
+- Strings store text in double quotes. Length: stringName.Length. Methods: ToUpper(), ToLower() return new string in upper/lowercase.
+- Remember: Strings are immutable — ToUpper()/ToLower() return a new string; they don't change the original.
+*/

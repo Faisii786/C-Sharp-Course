@@ -1,3 +1,4 @@
+// ========== TOPIC 8: ASSIGNMENT OPERATORS — Refresh: = += -= *= /= %= ==========
 // Assignment Operators
 // Assignment operators are used to assign values to variables.
 
@@ -26,3 +27,9 @@ x += 5;
 // ^=	x ^= 3	x = x ^ 3	
 // >>=	x >>= 3	x = x >> 3	
 // <<=	x <<= 3	x = x << 3	
+
+/*
+=== TOPIC 8 SUMMARY (OPERATORS): ASSIGNMENT ===
+- = assign; shorthand: +=, -=, *=, /=, %= (e.g. x += 5 same as x = x + 5).
+- Remember: x += 3 means "add 3 to x and store back in x". Same for -=, *=, /=, %=.
+*/

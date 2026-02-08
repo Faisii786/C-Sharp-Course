@@ -1,3 +1,5 @@
+// ========== TOPIC 1: C# INTRODUCTION — Refresh: using System; namespace; class; Main(); Console.WriteLine(); statements end with ; ==========
+
 using System;
 
 namespace HelloWorld
@@ -65,3 +67,12 @@ namespace HelloWorld
 // Note: Unlike Java, the name of the C# file does not have to match the class name, but they often do (for better organization). When saving the file, save it using a proper name and add ".cs" to the end of the filename. To run the example above on your computer, make sure that C# is properly installed: Go to the Get Started Chapter for how to install C#. The output should be:
 
 // Hello World!
+
+/*
+=== TOPIC 1 SUMMARY: C# INTRODUCTION ===
+- C# is an object-oriented language from Microsoft (pronounced "C-Sharp"), used for apps, games, web, and more.
+- A minimal program has: using System; (use System classes), a namespace (organizes code), a class (holds data and methods), and static void Main(string[] args) (entry point).
+- Code inside Main runs when the program starts.
+- Console.WriteLine("Hello World!"); prints text. Every statement ends with ;. C# is case-sensitive.
+- Remember: C# is case-sensitive; "MyClass" and "myclass" are different.
+*/

@@ -1,3 +1,4 @@
+// ========== TOPIC 4: VARIABLES — Refresh: type name = value; int, double, char, string, bool ==========
 // C# Variables
 // Variables are containers for storing data values.
 
@@ -55,3 +56,11 @@ double myDoubleNum = 5.99D;
 char myLetter = 'D';
 bool myBool = true;
 string myText = "Hello";
+
+/*
+=== TOPIC 4 SUMMARY (VARIABLES): VARIABLES ===
+- Variables store data. Declare with type and name: type variableName = value;
+- Main types: int (whole numbers), double (decimals), char (single character, single quotes), string (text, double quotes), bool (true/false).
+- You can declare first and assign later. Assigning again overwrites the value.
+- Remember: char uses single quotes 'A', string uses double quotes "Hello".
+*/

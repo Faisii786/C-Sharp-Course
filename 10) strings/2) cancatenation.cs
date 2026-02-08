@@ -1,3 +1,4 @@
+// ========== TOPIC 10: STRING CONCATENATION — Refresh: + or string.Concat(); numbers add, strings join ==========
 // String Concatenation
 // The + operator can be used between strings to combine them. This is called concatenation:
 
@@ -37,4 +38,10 @@ int z = x + y;  // z will be 30 (an integer/number)
 string x = "10";
 string y = "20";
 string z = x + y;  // z will be 1020 (a string)
+
+/*
+=== TOPIC 10 SUMMARY (STRINGS): CONCATENATION ===
+- + or string.Concat(a, b) to combine strings. With +: numbers are added, strings are concatenated (e.g. "10" + "20" gives "1020").
+- Remember: "10" + "20" = "1020" (string). 10 + 20 = 30 (number). Type decides behavior.
+*/
 

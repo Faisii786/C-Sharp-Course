@@ -1,3 +1,4 @@
+// ========== TOPIC 12: IF — Refresh: if (condition) { ... } runs only when condition is true ==========
 // C# Conditions and If Statements
 // You already know that C# supports familiar comparison conditions from mathematics, such as:
 
@@ -42,6 +43,12 @@ if (x > y)
 {
   Console.WriteLine("x is greater than y");
 }
+
+/*
+=== TOPIC 12 SUMMARY (IF/ELSE): IF ===
+- if: run a block only when condition is true: if (condition) { ... }.
+- Remember: Use lowercase if. Condition in parentheses; block in curly braces.
+*/
 
 // Example explained
 // In the example above we use two variables, x and y, to test whether x is greater than y (using the > operator). As x is 20, and y is 18, and we know that 20 is greater than 18, we print to the screen that "x is greater than y".

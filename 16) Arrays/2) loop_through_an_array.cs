@@ -1,3 +1,4 @@
+// ========== TOPIC 16: LOOP THROUGH ARRAY — Refresh: for with Length; foreach (type x in arr) ==========
 // Loop Through an Array
 // You can loop through the array elements with the for loop, and use the Length property to specify how many times the loop should run.
 
@@ -32,3 +33,9 @@ foreach (string i in cars)
 
 // If you compare the for loop and foreach loop, you will see that the foreach method is easier to write, it does not require a counter (using the Length property), and it is more readable.
 
+/*
+=== TOPIC 16 SUMMARY (ARRAYS): LOOP THROUGH ===
+- for: for (int i = 0; i < arr.Length; i++) Console.WriteLine(arr[i]);
+- foreach: foreach (type item in arr) { ... } — simpler, no index; use when you just need each element.
+- Remember: Use for when you need the index (e.g. to change elements). Use foreach for read-only iteration.
+*/

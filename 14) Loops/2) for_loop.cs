@@ -1,3 +1,4 @@
+// ========== TOPIC 14: FOR LOOP — Refresh: for(init; condition; update){ }; nested loops ==========
 // C# For Loop
 // When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
 
@@ -51,3 +52,9 @@ for (int i = 1; i <= 2; ++i)
     Console.WriteLine(" Inner: " + j); // Executes 6 times (2 * 3)
   }
 }
+
+/*
+=== TOPIC 14 SUMMARY (LOOPS): FOR ===
+- When you know how many times to run: for (init; condition; update) { ... } (e.g. for (int i = 0; i < 5; i++)). Nested loops: inner loop runs fully for each step of the outer loop.
+- Remember: Statement 1 runs once; 2 is the condition; 3 runs after each iteration. Use i < arr.Length to loop through array by index.
+*/

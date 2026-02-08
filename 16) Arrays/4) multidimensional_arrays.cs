@@ -1,3 +1,4 @@
+// ========== TOPIC 16: MULTIDIMENSIONAL ARRAYS — Refresh: int[,]; [row,col]; GetLength(0), GetLength(1) ==========
 // Multidimensional Arrays
 // In the previous chapter, you learned about arrays, which is also known as single dimension arrays. These are great, and something you will use a lot while programming in C#. However, if you want to store data as a tabular form, like a table with rows and columns, you need to get familiar with multidimensional arrays.
 
@@ -62,3 +63,11 @@ for (int i = 0; i < numbers.GetLength(0); i++)
     Console.WriteLine(numbers[i, j]); 
   } 
 }
+
+/*
+=== TOPIC 16 SUMMARY (ARRAYS): MULTIDIMENSIONAL ===
+- 2D array: int[,] numbers = { {1,4,2}, {3,6,8} }; — think rows and columns. One comma [,] = 2D; [,,] = 3D.
+- Access: numbers[row, col] e.g. numbers[0, 2]. Change: numbers[0, 0] = 5;
+- Loop: foreach (int i in numbers) or nested for with GetLength(0) and GetLength(1) for row/column count.
+- Remember: GetLength(0) = rows, GetLength(1) = columns. Indexes still start at 0.
+*/

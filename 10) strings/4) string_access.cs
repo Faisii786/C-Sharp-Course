@@ -1,3 +1,4 @@
+// ========== TOPIC 10: STRING ACCESS — Refresh: [0] first char; IndexOf(); Substring() ==========
 // Access Strings
 // You can access the characters in a string by referring to its index number inside square brackets [].
 
@@ -36,3 +37,8 @@ string lastName = name.Substring(charPos);
 // Print the result
 Console.WriteLine(lastName);
 
+/*
+=== TOPIC 10 SUMMARY (STRINGS): ACCESS ===
+- myString[0] is first character (index 0); use IndexOf("x") for position, Substring(start) or Substring(start, length) to get a part.
+- Remember: IndexOf returns -1 if not found. Substring(start) gets from start to end.
+*/

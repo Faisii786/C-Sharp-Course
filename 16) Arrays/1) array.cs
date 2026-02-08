@@ -1,3 +1,4 @@
+// ========== TOPIC 16: ARRAYS — Refresh: type[] name = { }; [0] first; .Length; new type[size] ==========
 // Create an Array
 // Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
@@ -74,4 +75,12 @@ cars = new string[] {"Volvo", "BMW", "Ford"};
 // Add values without using new (this will cause an error)
 cars = {"Volvo", "BMW", "Ford"};
 
+/*
+=== TOPIC 16 SUMMARY (ARRAYS): ARRAY BASICS ===
+- Arrays store multiple values in one variable. Declare: type[] name; e.g. string[] cars;
+- Literal: string[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; — indexes start at 0.
+- Access: cars[0]; change: cars[0] = "Opel"; length: cars.Length.
+- Other ways: new string[4]; or new string[4] {"A","B","C","D"}; if you init later, you must use new.
+- Remember: Index 0 is first element. Last index is Length - 1. Out-of-range index causes error.
+*/
 

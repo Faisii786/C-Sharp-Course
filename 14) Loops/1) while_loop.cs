@@ -1,3 +1,4 @@
+// ========== TOPIC 14: WHILE & DO-WHILE — Refresh: while(cond){ }; do{ }while(cond); update variable! ==========
 // Loops
 // Loops can execute a block of code as long as a specified condition is reached.
 
@@ -44,3 +45,9 @@ do
 while (i < 5);
 
 // Do not forget to increase the variable used in the condition, otherwise the loop will never end!
+
+/*
+=== TOPIC 14 SUMMARY (LOOPS): WHILE & DO-WHILE ===
+- while: repeat while condition is true; check condition first. do-while: run body at least once, then check condition. In both, update the variable in the condition so the loop can end.
+- Remember: Forgetting to increment (e.g. i++) causes an infinite loop. do-while runs at least one time.
+*/

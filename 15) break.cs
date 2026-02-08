@@ -1,3 +1,4 @@
+// ========== TOPIC 15: BREAK & CONTINUE — Refresh: break = exit loop; continue = skip to next iteration ==========
 // C# Break
 // You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement.
 
@@ -58,5 +59,10 @@ while (i < 10)
   Console.WriteLine(i);
   i++;
 }
- 
+
+/*
+=== TOPIC 15 SUMMARY: BREAK & CONTINUE ===
+- break: exit the current loop (or switch) immediately — no more iterations. continue: skip the rest of the current iteration and go to the next one. Both work in for, while, and do-while. In while with continue, still update the loop variable so the loop can end.
+- Remember: break = "stop the loop now". continue = "skip to next iteration". In while + continue, increment before continue or you may get infinite loop.
+*/
 

@@ -1,3 +1,4 @@
+// ========== TOPIC 7: USER INPUT — Refresh: Console.ReadLine() returns string; use Convert.ToInt32() for numbers ==========
 // Get User Input
 // You have already learned that Console.WriteLine() is used to output (print) values. Now we will use Console.ReadLine() to get user input.
 
@@ -36,3 +37,9 @@ Console.WriteLine("Your age is: " + age);
 // Note: If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like System.FormatException: 'Input string was not in a correct format.').
 
 // You will learn more about Exceptions and how to handle errors in a later chapter.
+
+/*
+=== TOPIC 7 SUMMARY: USER INPUT ===
+- Console.ReadLine() reads one line of text from the user and returns a string. So you store it in a string variable. For numbers, convert: int age = Convert.ToInt32(Console.ReadLine());. Wrong input (e.g. letters when expecting number) can cause an exception; error handling comes later.
+- Remember: You cannot do int x = Console.ReadLine(); — must convert. Exception handling (try/catch) is for later.
+*/

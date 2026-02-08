@@ -1,3 +1,4 @@
+// ========== TOPIC 12: ELSE IF — Refresh: else if (condition2) { ... }; only one block runs ==========
 // The else if Statement
 // Use the else if statement to specify a new condition if the first condition is False.
 
@@ -36,3 +37,8 @@ else
 
 // However, if the time was 14, our program would print "Good day."
 
+/*
+=== TOPIC 12 SUMMARY (IF/ELSE): ELSE IF ===
+- else if: check another condition if the first is false: else if (condition2) { ... } then optionally else { ... }. Only one of these blocks runs.
+- Remember: Order matters — first matching condition wins. Use for multiple ranges (e.g. time of day).
+*/
