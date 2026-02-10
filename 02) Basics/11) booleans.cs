@@ -1,4 +1,41 @@
-// ========== TOPIC 11: BOOLEANS — Refresh: bool true/false; comparisons return bool; used in if ==========
+/*
+================================================================================
+TOPIC 11: BOOLEANS - True/False Values
+================================================================================
+
+WHAT IS THIS?
+-------------
+Booleans represent true/false values. They're used for yes/no decisions, on/off
+states, and conditions. Comparison operators (>, <, ==) return boolean values
+that control program flow.
+
+WHY DO WE NEED THIS?
+--------------------
+- Decision making - Control program flow (if statements)
+- Conditions - Check if something is true or false
+- Logic - Combine conditions with AND (&&), OR (||), NOT (!)
+- Required for: if statements, loops, validation
+- Foundation for: All conditional logic in programming
+
+WHERE IS THIS USED?
+-------------------
+- If statements: if (age >= 18) { ... }
+- Loops: while (condition) { ... }
+- Validation: Check if input is valid
+- Comparisons: Is user logged in? Is item in stock?
+- Every program that makes decisions!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. bool type - Stores true or false
+2. Boolean expressions - Comparisons return bool
+3. Comparison operators: ==, !=, >, <, >=, <=
+4. Logical operators: && (AND), || (OR), ! (NOT)
+5. Using booleans in conditions
+
+================================================================================
+*/
+
 // C# Booleans
 // Very often, in programming, you will need a data type that can only have one of two values, like:
 

@@ -1,4 +1,40 @@
-// ========== TOPIC 4: VARIABLES — Refresh: type name = value; int, double, char, string, bool ==========
+/*
+================================================================================
+TOPIC 4: VARIABLES - Storing Data
+================================================================================
+
+WHAT IS THIS?
+-------------
+Variables are containers that store data values. They have a name, a type, and
+a value. You use variables to store information your program needs to work with.
+
+WHY DO WE NEED THIS?
+--------------------
+- Store data - Keep values for later use
+- Calculations - Store results of operations
+- User input - Store what user enters
+- State management - Track program state
+- Foundation - Everything in programming uses variables
+
+WHERE IS THIS USED?
+-------------------
+- Every program - All code uses variables
+- User data: name, age, email
+- Calculations: total, average, result
+- Game state: score, health, level
+- Configuration: settings, preferences
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. Variable declaration - type name = value
+2. Variable types - int, string, bool, etc.
+3. Variable naming - Rules and best practices
+4. Assigning values - Change variable values
+5. Constants - Values that don't change
+
+================================================================================
+*/
+
 // C# Variables
 // Variables are containers for storing data values.
 

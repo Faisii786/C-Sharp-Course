@@ -1,3 +1,41 @@
+/*
+================================================================================
+TOPIC 21: EXCEPTIONS - Error Handling
+================================================================================
+
+WHAT IS THIS?
+-------------
+Exceptions are errors that occur during program execution. Exception handling
+(try-catch) lets you gracefully handle errors instead of crashing. You catch
+exceptions and handle them appropriately.
+
+WHY DO WE NEED THIS?
+--------------------
+- Prevent crashes - Handle errors gracefully
+- User experience - Show friendly error messages
+- Debugging - Understand what went wrong
+- Robust code - Programs that handle unexpected situations
+- Required for: Professional applications
+
+WHERE IS THIS USED?
+-------------------
+- File operations: Handle file not found errors
+- User input: Validate and handle invalid input
+- Network calls: Handle connection errors
+- Database operations: Handle connection failures
+- Any operation that can fail
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. try-catch - Catch and handle exceptions
+2. Exception types - Different exception classes
+3. throw - Throw your own exceptions
+4. finally - Code that always runs
+5. Exception messages - Get error details
+
+================================================================================
+*/
+
 // C# Exceptions
 // When executing C# code, different errors can occur: coding errors made by the programmer, errors due to wrong input, or other unforeseeable things.
 

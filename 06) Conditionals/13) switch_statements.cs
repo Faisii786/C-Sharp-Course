@@ -1,4 +1,41 @@
-// ========== TOPIC 13: SWITCH — Refresh: switch(expr) { case x: ... break; default: ... break; } ==========
+/*
+================================================================================
+TOPIC 13: SWITCH STATEMENTS - Multiple Choice Decisions
+================================================================================
+
+WHAT IS THIS?
+-------------
+Switch statements let you choose one action from many options based on a value.
+Instead of multiple if-else statements, switch provides cleaner syntax for
+multiple choices.
+
+WHY DO WE NEED THIS?
+--------------------
+- Cleaner code - Better than many if-else statements
+- Readable - Clear mapping of values to actions
+- Performance - Can be faster than if-else chains
+- Common pattern - Used for menus, state machines, enums
+- Required for: Handling multiple discrete values
+
+WHERE IS THIS USED?
+-------------------
+- Menus: switch (choice) { case 1: ... case 2: ... }
+- Enums: switch (status) { case Status.Pending: ... }
+- State machines: switch (currentState) { ... }
+- Command processing: switch (command) { ... }
+- Any situation with multiple discrete choices
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. switch statement - Choose based on value
+2. case labels - Match specific values
+3. break statement - Exit switch block
+4. default case - Handle unmatched values
+5. Switch expressions (C# 8.0+)
+
+================================================================================
+*/
+
 // C# Switch Statements
 // Use the switch statement to select one of many code blocks to be executed.
 

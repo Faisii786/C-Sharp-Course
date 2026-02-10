@@ -1,4 +1,40 @@
-// ========== TOPIC 14: WHILE & DO-WHILE — Refresh: while(cond){ }; do{ }while(cond); update variable! ==========
+/*
+================================================================================
+TOPIC 14: LOOPS - Repeating Code (While & Do-While)
+================================================================================
+
+WHAT IS THIS?
+-------------
+Loops repeat a block of code multiple times. While loops check the condition
+first, then execute. Do-while loops execute at least once, then check condition.
+
+WHY DO WE NEED THIS?
+--------------------
+- Repeat actions - Don't write same code multiple times
+- Process collections - Loop through arrays, lists
+- User input - Keep asking until valid input
+- Automation - Process multiple items automatically
+- Required for: Processing data, iterating collections
+
+WHERE IS THIS USED?
+-------------------
+- Processing arrays/lists: Loop through all items
+- User input validation: Keep asking until valid
+- Game loops: while (gameRunning) { update game }
+- Data processing: Process each record in database
+- Every program that needs repetition!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. while loop - Check condition, then execute
+2. do-while loop - Execute once, then check condition
+3. Loop variables - Control when loop stops
+4. Infinite loops - What happens if you forget to update variable
+5. break and continue - Control loop flow
+
+================================================================================
+*/
+
 // Loops
 // Loops can execute a block of code as long as a specified condition is reached.
 

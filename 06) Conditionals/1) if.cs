@@ -1,4 +1,40 @@
-// ========== TOPIC 12: IF — Refresh: if (condition) { ... } runs only when condition is true ==========
+/*
+================================================================================
+TOPIC 12: IF STATEMENTS - Making Decisions
+================================================================================
+
+WHAT IS THIS?
+-------------
+If statements let your program make decisions. They execute code only when a
+condition is true. This is how programs respond differently to different situations.
+
+WHY DO WE NEED THIS?
+--------------------
+- Decision making - Execute code based on conditions
+- User input validation - Check if input is valid
+- Business logic - Different actions for different cases
+- Control flow - Most important concept in programming
+- Required for: Every program that needs to make decisions
+
+WHERE IS THIS USED?
+-------------------
+- User validation: if (age >= 18) { allow access }
+- Error handling: if (error) { show message }
+- Feature toggles: if (featureEnabled) { show feature }
+- Business rules: if (balance > 0) { allow withdrawal }
+- Every application!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. if statement - Execute code when condition is true
+2. else statement - Execute code when condition is false
+3. else if - Check multiple conditions
+4. Nested if statements
+5. Combining conditions with && and ||
+
+================================================================================
+*/
+
 // C# Conditions and If Statements
 // You already know that C# supports familiar comparison conditions from mathematics, such as:
 

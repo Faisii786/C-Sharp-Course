@@ -1,4 +1,40 @@
-// ========== TOPIC 10: STRINGS — Refresh: double quotes; .Length; ToUpper(), ToLower() ==========
+/*
+================================================================================
+TOPIC 10: STRINGS - Working with Text
+================================================================================
+
+WHAT IS THIS?
+-------------
+Strings store text - sequences of characters. C# provides many methods to
+manipulate strings: find length, convert case, search, replace, and more.
+
+WHY DO WE NEED THIS?
+--------------------
+- Text processing - Most programs work with text
+- User input - Names, addresses, messages are strings
+- Data formatting - Format numbers, dates as strings
+- Validation - Check if strings match patterns
+- Required for: Almost every application
+
+WHERE IS THIS USED?
+-------------------
+- User input: Names, emails, addresses
+- Display: Messages, labels, descriptions
+- Data processing: Parse CSV, JSON, XML
+- Validation: Check email format, password strength
+- Every application that handles text!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. String creation - "text" or string variable
+2. String methods - Length, ToUpper(), ToLower()
+3. String concatenation - Combine strings (+)
+4. String interpolation - $"Hello {name}"
+5. String methods - IndexOf(), Substring(), Replace()
+
+================================================================================
+*/
+
 // C# Strings
 // Strings are used for storing text.
 

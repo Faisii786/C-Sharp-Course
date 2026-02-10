@@ -1,4 +1,40 @@
-// ========== TOPIC 15: BREAK & CONTINUE — Refresh: break = exit loop; continue = skip to next iteration ==========
+/*
+================================================================================
+TOPIC 15: BREAK & CONTINUE - Controlling Loop Flow
+================================================================================
+
+WHAT IS THIS?
+-------------
+break exits a loop immediately. continue skips the rest of the current iteration
+and goes to the next one. These give you control over loop execution flow.
+
+WHY DO WE NEED THIS?
+--------------------
+- Early exit - Stop loop when condition met (found item)
+- Skip iterations - Skip certain items in loop
+- Performance - Exit early when done
+- Control flow - Fine-grained control over loops
+- Common pattern - Used frequently in real code
+
+WHERE IS THIS USED?
+-------------------
+- Search loops: break when item found
+- Validation: continue when item invalid
+- Processing: skip certain items
+- Error handling: break on error
+- Every loop that needs conditional control!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. break - Exit loop immediately
+2. continue - Skip to next iteration
+3. break in switch - Exit switch statement
+4. Nested loops - break/continue behavior
+5. When to use each
+
+================================================================================
+*/
+
 // C# Break
 // You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement.
 

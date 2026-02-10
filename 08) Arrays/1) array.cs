@@ -1,4 +1,40 @@
-// ========== TOPIC 16: ARRAYS — Refresh: type[] name = { }; [0] first; .Length; new type[size] ==========
+/*
+================================================================================
+TOPIC 16: ARRAYS - Storing Multiple Values
+================================================================================
+
+WHAT IS THIS?
+-------------
+Arrays store multiple values of the same type in a single variable. Each value
+has an index (position) starting from 0. Arrays have a fixed size once created.
+
+WHY DO WE NEED THIS?
+--------------------
+- Store collections - Multiple related values together
+- Efficient access - Access any element by index instantly
+- Fixed size - Good when you know size in advance
+- Foundation for: Lists, Collections, LINQ
+- Required for: Processing multiple items
+
+WHERE IS THIS USED?
+-------------------
+- Storing data: Student grades, product prices
+- Processing collections: Loop through all items
+- Algorithms: Sorting, searching
+- Game development: Player scores, inventory
+- Any situation with multiple related values
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. Array declaration: type[] name = { values }
+2. Index access: array[0] (first element)
+3. Length property - Get number of elements
+4. Looping through arrays - for and foreach
+5. Multidimensional arrays - Arrays of arrays
+
+================================================================================
+*/
+
 // Create an Array
 // Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 

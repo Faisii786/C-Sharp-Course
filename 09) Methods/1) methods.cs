@@ -1,3 +1,41 @@
+/*
+================================================================================
+TOPIC 17: METHODS - Reusable Code Blocks
+================================================================================
+
+WHAT IS THIS?
+-------------
+Methods are blocks of code that perform a specific task. They can be called
+multiple times, accept parameters, and return values. They help organize code
+and avoid repetition.
+
+WHY DO WE NEED THIS?
+--------------------
+- Code reuse - Write once, use many times
+- Organization - Break code into logical pieces
+- Maintainability - Fix bugs in one place
+- Readability - Descriptive method names explain purpose
+- Required for: All professional code
+
+WHERE IS THIS USED?
+-------------------
+- Calculations: CalculateTotal(), CalculateTax()
+- Validation: ValidateEmail(), CheckAge()
+- Data processing: FormatDate(), ParseInput()
+- Business logic: ProcessOrder(), SendEmail()
+- Every program uses methods!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. Method declaration - Define a method
+2. Parameters - Pass data into methods
+3. Return values - Get data back from methods
+4. Method overloading - Same name, different parameters
+5. static vs instance methods
+
+================================================================================
+*/
+
 // C# Methods
 // A method is a block of code which only runs when it is called.
 

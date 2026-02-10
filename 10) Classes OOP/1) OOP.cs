@@ -1,3 +1,41 @@
+/*
+================================================================================
+TOPIC 18: OBJECT-ORIENTED PROGRAMMING (OOP) - Foundation
+================================================================================
+
+WHAT IS THIS?
+-------------
+OOP (Object-Oriented Programming) organizes code into objects that contain both
+data (properties) and behavior (methods). It's the foundation of C# and modern
+programming. Classes are blueprints, objects are instances.
+
+WHY DO WE NEED THIS?
+--------------------
+- Code organization - Group related data and methods together
+- Reusability - Create objects from classes, use multiple times
+- Maintainability - Changes in one place affect all objects
+- Real-world modeling - Code mirrors real-world concepts
+- Industry standard - Used in all professional applications
+
+WHERE IS THIS USED?
+-------------------
+- Every C# application - C# is object-oriented
+- User management: User class with name, email, methods
+- E-commerce: Product class, Order class, Customer class
+- Games: Player class, Enemy class, Weapon class
+- Business applications: Employee, Department, Invoice classes
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. Classes - Blueprints for objects
+2. Objects - Instances of classes
+3. Properties - Data stored in objects
+4. Methods - Actions objects can perform
+5. Encapsulation, Inheritance, Polymorphism (advanced topics)
+
+================================================================================
+*/
+
 // C# - What is OOP?
 // OOP stands for Object-Oriented Programming.
 

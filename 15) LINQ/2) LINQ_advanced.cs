@@ -1,4 +1,42 @@
-// ========== TOPIC 23: LINQ — Advanced Operations ==========
+/*
+================================================================================
+TOPIC 15: LINQ - Advanced Operations (Part 2)
+================================================================================
+
+WHAT IS THIS?
+-------------
+Advanced LINQ operations for complex data manipulation: grouping, joining,
+aggregating, and transforming data in powerful ways. These are the operations
+that make LINQ incredibly powerful for real-world applications.
+
+WHY DO WE NEED THIS?
+--------------------
+- Complex queries - Group, join, aggregate data
+- Data transformation - Reshape data structures
+- Performance - Efficient data operations
+- Real-world scenarios - Handle complex business logic
+- Professional code - Used in all enterprise applications
+
+WHERE IS THIS USED?
+-------------------
+- Reporting: Group sales by region, calculate totals
+- Data analysis: Aggregate statistics, find patterns
+- API responses: Transform and group data
+- Database queries: Complex joins and aggregations
+- Business intelligence: Analyze and report on data
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. GroupBy - Group elements by key
+2. Distinct - Get unique elements
+3. Union/Intersect/Except - Set operations
+4. Aggregate - Custom aggregations
+5. Zip - Combine collections element-wise
+6. ToList/ToArray - Convert to collections
+
+================================================================================
+*/
+
 // Advanced LINQ operations you'll use frequently
 
 using System;

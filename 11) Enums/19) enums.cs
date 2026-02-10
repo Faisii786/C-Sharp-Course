@@ -1,3 +1,41 @@
+/*
+================================================================================
+TOPIC 19: ENUMS - Named Constants
+================================================================================
+
+WHAT IS THIS?
+-------------
+Enums (enumerations) are named constants - a way to give meaningful names to
+related constant values. Instead of magic numbers, you use descriptive names
+like Level.Low, Level.Medium, Level.High.
+
+WHY DO WE NEED THIS?
+--------------------
+- Readability - Level.Medium is clearer than number 2
+- Type safety - Compiler prevents invalid values
+- Maintainability - Change value in one place
+- IntelliSense - IDE suggests available values
+- Common pattern - Used throughout .NET Framework
+
+WHERE IS THIS USED?
+-------------------
+- Status values: OrderStatus.Pending, OrderStatus.Shipped
+- Categories: ProductCategory.Electronics, ProductCategory.Clothing
+- Settings: LogLevel.Debug, LogLevel.Error
+- Days of week: DayOfWeek.Monday (built-in enum)
+- Any fixed set of related values
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. enum declaration - Define enum with values
+2. Accessing values - EnumName.Value
+3. Enum values - Default numbering (0, 1, 2...)
+4. Custom values - Assign specific numbers
+5. Using enums in switch statements
+
+================================================================================
+*/
+
 // C# Enums
 // An enum is a special "class" that represents a group of constants (unchangeable/read-only variables).
 

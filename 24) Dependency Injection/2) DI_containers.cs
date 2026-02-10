@@ -1,4 +1,41 @@
-// ========== TOPIC 25: DEPENDENCY INJECTION — DI Containers (Advanced) ==========
+/*
+================================================================================
+TOPIC 24: DEPENDENCY INJECTION - DI Containers (Advanced)
+================================================================================
+
+WHAT IS THIS?
+-------------
+DI Containers automatically manage dependency injection. Instead of manually
+creating and injecting dependencies, the container does it for you. You register
+services once, and the container handles the rest.
+
+WHY DO WE NEED THIS?
+--------------------
+- Automation - Don't manually wire dependencies
+- Lifecycle management - Control when objects are created
+- Centralized configuration - All dependencies in one place
+- Required for: ASP.NET Core, enterprise applications
+- Professional standard - Used in all modern frameworks
+
+WHERE IS THIS USED?
+-------------------
+- ASP.NET Core (built-in DI container)
+- Enterprise applications
+- Microservices architecture
+- Any application with complex dependencies
+- Professional C# development
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. ServiceCollection - Register services
+2. ServiceProvider - Resolve services
+3. Service lifetimes: Singleton, Scoped, Transient
+4. Registration patterns - Register interfaces, resolve implementations
+5. Dependency resolution - Container creates objects automatically
+
+================================================================================
+*/
+
 // DI Containers (Dependency Injection Containers)
 // In real applications, you use a DI container to manage dependencies automatically.
 // Popular containers: Microsoft.Extensions.DependencyInjection (built-in), Autofac, Ninject

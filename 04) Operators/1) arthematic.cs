@@ -1,4 +1,41 @@
-// ========== TOPIC 8: ARITHMETIC OPERATORS — Refresh: + - * / % ++ -- ==========
+/*
+================================================================================
+TOPIC 8: OPERATORS - Performing Operations
+================================================================================
+
+WHAT IS THIS?
+-------------
+Operators perform operations on variables and values. Arithmetic operators do
+math (+, -, *, /), comparison operators compare values (>, <, ==), and logical
+operators combine conditions (&&, ||, !).
+
+WHY DO WE NEED THIS?
+--------------------
+- Calculations - Perform math operations
+- Comparisons - Compare values for decisions
+- Logic - Combine conditions
+- Required for: All programming logic
+- Foundation - Used in every program
+
+WHERE IS THIS USED?
+-------------------
+- Calculations: total = price * quantity
+- Comparisons: if (age >= 18)
+- Logic: if (isLoggedIn && hasPermission)
+- Incrementing: counter++
+- Every program uses operators!
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. Arithmetic: +, -, *, /, % (modulus)
+2. Assignment: =, +=, -=, *=, /=
+3. Comparison: ==, !=, >, <, >=, <=
+4. Logical: && (AND), || (OR), ! (NOT)
+5. Increment/Decrement: ++, --
+
+================================================================================
+*/
+
 // Operators
 // Operators are used to perform operations on variables and values.
 
