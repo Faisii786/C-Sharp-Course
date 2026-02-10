@@ -1,4 +1,39 @@
-// ========== TOPIC 2: OUTPUT — Refresh: WriteLine = print + new line; Write = print, no new line ==========
+/*
+================================================================================
+TOPIC 2: OUTPUT - Displaying Information
+================================================================================
+
+WHAT IS THIS?
+-------------
+Output means displaying information to the user. In C#, we use Console.WriteLine()
+and Console.Write() to show text, numbers, and results on the screen.
+
+WHY DO WE NEED THIS?
+--------------------
+- Programs need to communicate with users
+- You need to see results of your calculations
+- Debugging: Print values to understand what's happening
+- User interaction: Show messages, errors, results
+- Without output, you can't see if your program works!
+
+WHERE IS THIS USED?
+-------------------
+- Every program that interacts with users
+- Debugging and testing code
+- Displaying results, errors, warnings
+- Console applications (command-line programs)
+- Logging information
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. Console.WriteLine() - Print text and move to next line
+2. Console.Write() - Print text without new line
+3. Printing numbers and calculations
+4. Multiple output statements
+5. Formatting output
+
+================================================================================
+*/
 
 Console.WriteLine("Hello World!");
 

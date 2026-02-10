@@ -1,6 +1,42 @@
-// ========== TOPIC 5: DATA TYPES — Refresh: int, long, float, double, bool, char, string; sizes and suffixes (L, F, D) ==========
-// C# Data Types
-// As explained in the variables chapter, a variable in C# must be a specified data type:
+/*
+================================================================================
+TOPIC 5: DATA TYPES - Choosing the Right Type
+================================================================================
+
+WHAT IS THIS?
+-------------
+Data types specify what kind of data a variable can hold (numbers, text, true/false).
+Each type has a specific size and range. Choosing the right type is important for
+correctness, performance, and memory usage.
+
+WHY DO WE NEED THIS?
+--------------------
+- Type safety - Prevents errors (can't put text in number variable)
+- Memory efficiency - Use smallest type that fits your needs
+- Performance - Correct types run faster
+- Clarity - Code is self-documenting (int age vs string age)
+- Required - C# requires explicit types (or var with type inference)
+
+WHERE IS THIS USED?
+-------------------
+- Every variable declaration
+- Function parameters and return types
+- Database columns (matching types)
+- API contracts (ensuring correct data)
+- Calculations (int vs double for precision)
+
+CONCEPTS YOU'LL LEARN:
+---------------------
+1. int - Whole numbers (most common)
+2. long - Very large whole numbers
+3. float/double - Decimal numbers
+4. bool - True/false values
+5. char - Single character
+6. string - Text (multiple characters)
+7. Type suffixes: L (long), F (float), D (double)
+
+================================================================================
+*/
 
 // Example
 int myNum = 5;               // Integer (whole number)
